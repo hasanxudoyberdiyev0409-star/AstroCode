@@ -1413,7 +1413,23 @@ footer {
         transform: translateX(0);
     }
 }
-
+.earth{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.satelite{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+.uranus{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+}
 .feature-card,
 .course-card,
 .astronomy-card,
